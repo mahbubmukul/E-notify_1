@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_project_setup"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Project Setup" />
+        <item
+            android:id="@+id/nav_project_manager"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Project Status" />
+        <item
+            android:id="@+id/nav_task"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Task" />
+        <item
+            android:id="@+id/nav_project_base_task"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Project Based Task" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@mipmap/profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_loguot"
+                android:icon="@mipmap/logout"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>

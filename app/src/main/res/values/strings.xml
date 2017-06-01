@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">E-Notify</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_project_setup">Project Setup</string>
+    <string name="title_activity_project_manager">Project Manager</string>
+    <string name="title_activity_details">DetailsActivity</string>
+
+    <string-array name="day_of_week">
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+    </string-array>
+
+    <string-array name="month_name">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string name="title_activity_update_profile">Project Base Task</string>
+    <string name="title_activity_update_task">Task</string>
+</resources>

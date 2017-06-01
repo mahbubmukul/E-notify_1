@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="5dip"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.devbd.devmukul.e_notify.Activities.TaskUpdateActivity"
+    tools:showIn="@layout/activity_task_update">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TASK NAME"
+                    android:textSize="12sp"
+                    android:paddingLeft="5dp"
+                    android:textColor="#666666"/>
+
+                <EditText
+                    android:id="@+id/task_name"
+                    style="@style/CustomEditTextLogInSignUpNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:hint="Task Name"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SHORT DESCRIPTION"
+                    android:textSize="12sp"
+                    android:paddingLeft="5dp"
+                    android:textColor="#666666"/>
+
+                <EditText
+                    android:id="@+id/task_short_desc"
+                    style="@style/CustomEditTextLogInSignUpNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:hint="Short Description"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COST"
+                    android:textSize="12sp"
+                    android:paddingLeft="5dp"
+                    android:textColor="#666666"/>
+
+                <EditText
+                    android:id="@+id/task_cost"
+                    style="@style/CustomEditTextLogInSignUpNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:hint="Cost"
+                    android:inputType="number"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="START DATE"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/task_start_date"
+                    style="@style/CustomEditTextLogInSignUpNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:hint="Start Date"
+                    android:inputType="number"
+                    android:drawableRight="@mipmap/calendar"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="END DATE"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/task_end_date"
+                    style="@style/CustomEditTextLogInSignUpNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:hint="End Date"
+                    android:inputType="number"
+                    android:drawableRight="@mipmap/calendar"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DESCRIPTION"
+                    android:textSize="12sp"
+                    android:paddingLeft="5dp"
+                    android:textColor="#666666"/>
+
+                <EditText
+                    android:id="@+id/task_desc"
+                    style="@style/CustomEditTextLogInSignUpNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:hint="Description"
+                    android:inputType="textMultiLine"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="TASK TYPE"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/project_spn"
+                    style="@style/CustomEditTextLogInSignUpNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:drawableRight="@mipmap/down"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:hint="Task Type"
+                    android:inputType="textPostalAddress"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:weightSum="2">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_button_facebook"
+                    android:text="Cancel"
+                    android:textColor="#FFF"
+                    android:layout_marginRight="5dp"/>
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_button_accent"
+                    android:text="Submit"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
